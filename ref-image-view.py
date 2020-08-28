@@ -78,7 +78,7 @@ def default_resize(copy_image):
     window.geometry(dynamic_size)
 
 ref_image_path = filedialog.askopenfilename(
-    initialdir="V:/anime_girls",
+    initialdir="C:/",
     title="Select a Ref",
     filetypes=[("Image","*.png"),("Image","*.jpg"),("Image","*.jfif")]
     )
